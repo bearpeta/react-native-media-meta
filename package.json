@@ -6,9 +6,9 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mybigday/react-native-media-meta.git"
+    "url": "git+https://github.com/bearpeta/react-native-media-meta.git"
   },
   "keywords": ["react", "native", "media", "metadata"],
-  "author": "Jhen <developer@jhen.me>",
+  "author": "Alessandro Petrillo <bearpeta.development@gmail.com>",
   "license": "MIT"
 }

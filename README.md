@@ -1,6 +1,5 @@
-# React Native Media Meta [![NPM version](http://img.shields.io/npm/v/react-native-media-meta.svg?style=flat)](https://www.npmjs.com/package/react-native-media-meta)
 
-> Get media file metadata in your React Native app
+THIS IS JUST A FORK FROM THE ORIGINAL REPO: https://github.com/mybigday/react-native-media-meta
 
 ## Installation
 
