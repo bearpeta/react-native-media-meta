@@ -115,6 +115,17 @@ public class RNMediaMeta extends ReactContextBaseJavaModule {
             result.putString("createTime", result.getString("creation_time"));
 
             if (options.getBoolean("getThumb")) {
+
+                if(audioCodec != null) {
+                    byte[] pictures = mmr.getEmbeddedPicture();
+                    if(pictures != null) {
+                        result.putString("thumb", convertToBase64(pictures));
+                    }
+                    promise.resolve(result);
+                    mmr.release();
+                    return;
+
+                }
                 // get thumb
                 Bitmap bmp = mmr.getFrameAtTime();
                 if (bmp != null) {
